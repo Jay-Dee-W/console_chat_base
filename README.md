@@ -8,7 +8,7 @@ set up a new database which will be used to store your game data.
         player_1: 'Mark',
         player_2: 'Fred',
         player_1_guess: 'Rock',
-        player_2_guess: 'Paper'
+        player_2_guess: 'Paper',
         timestamp: 1611724447821
     }
     ```
@@ -26,7 +26,7 @@ set up a new database which will be used to store your game data.
     {
         Mark : { win: 5, loss: 2, draw: 3 },
         Fred : { win: 6, loss: 3, draw: 1 },
-        Kimiko : { win: 2, loss: 1, draw: 1 },
+        Kimiko : { win: 2, loss: 1, draw: 1 }
     }
     ```
     - There will only be one such object in the database which is updated with new values for each player
